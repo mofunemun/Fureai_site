@@ -1,0 +1,624 @@
+//here are variables
+
+$marumozi: 'M PLUS Rounded 1c', sans-serif;
+$minchou: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体','ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
+$size-sp-headline: 28px;
+$size-pc-headline: 54px;
+$size-sp-large:20px;
+$size-sp-para:16px;
+$size-sp-small:12px;
+$size-pc-large:36px;
+$size-pc-para:30px;
+$size-pc-small:24px;
+
+$breakpoint: 769px;
+
+$size-sp-img: 100%;
+$size-half-img: 49%;
+$space-sp-small:16px;
+$space-sp-sect:32px;
+$space-sp-block:48px;
+$space-sp-art:119px;
+$space-pc-small:24px;
+$space-pc-block:100px;
+$space-pc-sect:150px;
+$space-pc-art:200px;
+
+
+$color-orange:#E83600;
+$color-red:#E5356B;
+$color-pink:#FC91B2;
+$color-green:#A0FD8F;
+
+$bg-grad:linear-gradient(0deg, rgba(255,243,157,1) 0%, rgba(255,243,157,0.3519782913165266) 25%, rgba(255,243,157,0.25674019607843135) 78%, rgba(255,243,157,1) 100%);
+
+//here are typography settings
+
+body{
+    width: 100%;
+    font-family: $marumozi;
+    font-size: $size-sp-para;
+    @media screen and (min-width: $breakpoint) {
+        font-size: $size-pc-para;
+    }
+    .para-s{
+        font-size: $size-sp-small;
+        @media screen and (min-width:$breakpoint) {
+            font-size: $size-pc-small;
+        }
+    }
+    .para-l{
+        font-size: $size-sp-large;
+        @media screen and (min-width:$breakpoint) {
+            font-size: $size-pc-large;
+        }
+    }
+
+    .comheader,.commain-info{
+        font-family: $minchou;
+    }
+    .section-headline{
+        font-size: $size-sp-headline;
+        font-weight: bold;
+        text-align: center;
+        @media screen and (min-width:$breakpoint) {
+            font-size: $size-pc-headline;
+        }
+    }
+}
+
+//here are layout settings
+
+header,main,footer{
+    width: 100%;
+    margin: 0 auto;
+}
+
+header>*,main>*,footer>*{
+    width: 70%;
+    margin: 0 auto;
+    @media screen and (min-width:$breakpoint) {
+        width: 85%;
+        margin: 0 auto;
+    }
+}
+
+.center{
+    text-align: center;
+}
+
+.indexheader{
+    display: flex;
+    flex-direction: column;
+    padding: $space-sp-sect 0;
+    background: $bg-grad;
+    @media screen and (min-width:$breakpoint) {
+        display: block;
+        position: relative;
+        height: 80vh;
+        padding: $space-pc-small 0;
+    }
+    .indexheader-copy{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: $space-sp-sect;
+        h2{
+            padding-top: $space-sp-small;
+            color: $color-orange;
+        }
+        .center{
+            text-align: center;
+        }
+        .right{
+            text-align: right;
+        }
+        @media screen and (min-width:$breakpoint) {
+            font-size:$size-pc-large;
+            padding: 0;
+            width: 50%;
+            position: absolute;
+            top: 172px;
+            left: 40%;
+        }
+    }
+    .indexheader-headline{
+        width: 100vw;
+        background-color: $color-pink;
+        padding: 6px 0;
+        text-align: center;
+        color: white;
+        @media screen and (min-width:$breakpoint) {
+            width: 100vw;
+            background: none;
+            color: $color-red;
+            font-size: calc(#{$size-pc-headline} + 20px);
+            position: absolute;
+            padding: $space-pc-small 0;
+            top: 36px;
+        }
+    }
+    .indexheader-image{
+        img{
+            width: $size-sp-img;
+            padding-top: $space-sp-sect;
+            @media screen and (min-width:$breakpoint) {
+                width: 25%;
+                position: absolute;
+                top:172px;
+                left: 10%;
+            }
+        }
+    }
+    p{
+        padding-top: $space-sp-sect;
+        font-size: calc(#{$size-sp-headline} - 4px);
+        @media screen and (min-width:$breakpoint) {
+            padding-top: 0;
+            width: 50%;
+            font-size: $size-pc-large;
+            position: absolute;
+            top: 500px;
+            left: 40%;
+        }
+    }
+    .pc-only{
+        display: none;
+        @media screen and (min-width:$breakpoint) {
+            display: block;
+            width: 20%;
+            position: absolute;
+            bottom: 0;
+            right: 10px;
+        }
+    }
+}
+.indexmain{
+    .indexmain-info{
+        padding-top: $space-sp-block;
+        padding-bottom: $space-sp-art;
+        @media screen and (min-width:$breakpoint) {
+            padding-top: $space-pc-block;
+            padding-bottom: $space-pc-block;
+        }
+        .indexmain-info-about{
+            padding-bottom: $space-sp-sect;
+            @media screen and (min-width:$breakpoint) {
+                padding-bottom: $space-pc-sect;
+            }
+            div{
+                padding-top: $space-sp-sect;
+                @media screen and (min-width:$breakpoint) {
+                    padding-top: $space-pc-sect;
+                    display: flex;
+                    justify-content: space-between;
+                }
+            }
+            img{
+                padding-top: $space-sp-sect;
+                width: $size-sp-img;
+                @media screen and (min-width:$breakpoint) {
+                    width: 30%;
+                }
+            }
+            p{
+                @media screen and (min-width:$breakpoint) {
+                    width: 60%;
+                }
+            }
+        }
+        .indexmain-info-date{
+            padding-bottom: $space-sp-art;
+            @media screen and (min-width:$breakpoint) {
+                padding-bottom: $space-pc-art;
+            }
+            .indexmain-info-date-disc{
+                padding-top: $space-sp-sect;
+                @media screen and (min-width:$breakpoint) {
+                    display: flex;
+                    padding-top: $space-pc-block;
+                    justify-content: space-between;
+                }
+                .indexmain-info-date-disc-map{
+                    position: relative;
+                    width: 100%;
+                    height: 0;
+                    padding-top: 69%;
+                    @media screen and (min-width:$breakpoint) {
+                        width: 45%;
+                        padding-top: 37%;
+                    }
+                }
+                iframe{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                }
+                .indexmain-info-date-disc-para{
+                    padding-top: $space-sp-sect;
+                    width: 100%;
+                    @media screen and (min-width:$breakpoint) {
+                        padding-top: 0;
+                        width: 45%;
+                    }
+                    p{
+                        padding-bottom: $space-sp-small;
+                    }
+                    .indexmain-info-date-notice{
+                        color: $color-red;
+                        padding-bottom: 0;
+                    }
+                }
+            }
+        }
+        .indexmain-info-links{
+            padding-bottom: $space-sp-art;
+            @media screen and (min-width:$breakpoint) {
+                display: flex;
+                justify-content: space-between;
+                padding-bottom: $space-pc-art;
+            }
+            :nth-child(1){
+                padding-bottom: $space-sp-block;
+                @media screen and (min-width:$breakpoint) {
+                    padding: 0;
+                }
+            }
+            >div{
+                text-align: center;
+                @media screen and (min-width:$breakpoint) {
+                    width: 45%;
+                }
+                h3{
+                    padding-bottom: $space-sp-sect;
+                    .red{
+                        color: $color-red;
+                    }
+                    @media screen and (min-width:$breakpoint) {
+                        font-size: $size-pc-large;
+                        height: 110px;
+                    }
+                }
+                img{
+                    width: 50%;
+                    padding-bottom: $space-sp-sect;
+                    @media screen and (min-width:$breakpoint) {
+                        width: auto;
+                        height: 300px;
+                        padding: calc(#{$space-pc-small} * 2) 0;
+                    }
+                }
+                p{
+                    text-align: left;
+                    padding-bottom: $space-sp-sect;
+                    @media screen and (min-width:$breakpoint) {
+                        font-size: $size-pc-para;
+                        height: 300px;
+                    }
+                }
+                a{
+                    display: block;
+                    height: 56px;
+                    width: 100%;
+                    border-radius: 14px;
+                    background-color: $color-green;
+                    vertical-align: center;
+                    text-decoration: none;
+                    color: black;
+                    @media screen and (min-width:$breakpoint){
+                        margin: 0 auto;
+                        width: 100%;
+                        height: 90px;
+                        border-radius: 24px;
+                    }
+                    div{
+                        height: 100%;
+                        line-height: 56px;
+                        @media screen and (min-width:$breakpoint) {
+                            line-height: 90px;
+                        }
+                    }
+                }
+            }
+            
+        }
+        .indexmain-info-movie{
+            h3{
+                padding-bottom: $space-sp-sect;
+                @media screen and (min-width:$breakpoint) {
+                    padding-bottom: $space-pc-sect;
+                }
+            }
+            >div{
+                @media screen and (min-width:$breakpoint){
+                    display: flex;
+                    justify-content: space-between;
+                }
+            }
+            .indexmain-info-movie-container{
+                position: relative;
+                width: 100%;
+                height: 0;
+                padding-top: 69%;
+                @media screen and (min-width:$breakpoint) {
+                    width: 45%;
+                    padding-top: 25%;
+                }
+            }
+            iframe{
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
+            .indexmain-info-movie-desc{
+                padding-top: $space-sp-sect;
+                @media screen and (min-width:$breakpoint) {
+                    width: 45%;
+                    padding:0;
+                }
+                .para-l{
+                    padding-bottom: $space-sp-small;
+                }
+            }
+        }
+    }
+    .indexmain-rev{
+        width: 100vw;
+        background: $bg-grad;
+        padding: $space-sp-block 0;
+        @media screen and (min-width:$breakpoint) {
+            padding: $space-pc-block 0;
+        }
+        >*{
+            width: 70%;
+            margin: 0 auto;
+            @media screen and (min-width:$breakpoint) {
+                width: 85%;
+            }
+        }
+        h3{
+            padding-bottom: $space-sp-sect;
+            @media screen and (min-width:$breakpoint) {
+                padding-bottom: $space-pc-sect;
+            }
+        }
+        p,div{
+            padding-bottom: $space-sp-sect;
+            @media screen and (min-width:$breakpoint) {
+                padding-bottom: $space-pc-block;
+                font-size: $size-pc-large;
+            }
+        }
+        :nth-child(5){
+            padding-bottom: $space-sp-block;
+            @media screen and (min-width:$breakpoint) {
+                padding-bottom: $space-pc-art;
+            }
+        }
+        .para-s{
+            padding: 0;
+        }
+        .indexmain-rev-review{
+            img{
+                width: $size-sp-img;
+                @media screen and (min-width:$breakpoint) {
+                    width: 50%;
+                }
+            }
+            .half-half{
+                @media screen and (min-width:$breakpoint) {
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                }
+                img{
+                    width: $size-half-img;
+                    height: auto;
+                    @media screen and (min-width:$breakpoint) {
+                        width: calc(#{$size-half-img} / 2);
+                    }
+                }
+            }
+        }
+        .indexmain-rev-support{
+            img{
+                width: $size-sp-img;
+                padding-bottom: $space-sp-sect;
+                @media screen and (min-width:$breakpoint){
+                    width: 25%;
+                }
+            }
+            p.center{
+                @media screen and (min-width:$breakpoint) {
+                    width: 60%;
+                    margin: 0 auto;
+                    font-size: $size-pc-headline;
+                    font-weight: bold;
+                }
+            }
+            p.para-s{
+                @media screen and (min-width:$breakpoint){
+                    width: 60%;
+                    margin: 0 auto;
+                    text-align: left;
+                }
+            }
+        }
+    }
+}
+.indexfooter{
+    .indexfooter-links{
+        padding: $space-sp-art 0;
+        @media screen and (min-width:$breakpoint) {
+            display: flex;
+            justify-content: space-between;
+            padding-top: $space-pc-sect;
+            padding-bottom: $space-pc-art;
+        }
+        >div:nth-child(1){
+            padding-bottom: $space-sp-block;
+            @media screen and (min-width:$breakpoint) {
+                padding-bottom: 0;
+            }
+        }
+        >div{
+            @media screen and (min-width:$breakpoint) {
+                width: 45%;
+            }
+            h3{
+                padding-bottom: $space-sp-sect;
+            }
+            a{
+                display: block;
+                height: 56px;
+                width: 100%;
+                border-radius: 14px;
+                background-color: $color-green;
+                text-align: center;
+                text-decoration: none;
+                color: black;
+                @media screen and (min-width:$breakpoint) {
+                    height: 90px;
+                    border-radius: 24px;
+                }
+                div{
+                    height: 100%;
+                    line-height: 56px;
+                    @media screen and (min-width:$breakpoint) {
+                        line-height: 90px;
+                    }
+                }
+            }
+        }
+    }
+    .indexfooter-address{
+        padding-bottom: $space-sp-block;
+        @media screen and (min-width:$breakpoint){
+            padding-bottom: $space-pc-sect;
+        }
+        .para-s{
+            padding-bottom: $space-sp-small;
+            @media screen and (min-width:$breakpoint) {
+                padding-bottom: $space-pc-small;
+            }
+        }
+    }
+    
+}
+
+.parheader{
+    .parheader-copy{
+        img{
+            width: $size-sp-img;
+            @media screen and (min-width:$breakpoint) {
+                width: 25%;
+            }
+        }
+    }
+}
+.parmain{
+    .parmain-info{
+        .parmain-info-about{
+            img{
+                width: 50%;
+                @media screen and (min-width:$breakpoint) {
+                    width: 50%;
+                }
+            }
+        }
+        .parmain-info-date{
+            .parmain-info-date-disc{
+                .parmain-info-date-disc-map{
+                    position: relative;
+                    width: 70%;
+                    height: 0;
+                    padding-top: 40%;
+                }
+                iframe{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+        .parmain-info-items{
+            img{
+                width: $size-half-img;
+            }
+        }
+        .parmain-info-flow{
+            img{
+                width: $size-half-img;
+            }
+        }
+    }
+    .parmain-rev{
+        .parmain-rev-review{
+            img{
+                width: $size-sp-img;
+            }
+            .half-half{
+                img{
+                    width: $size-half-img;
+                    height: auto;
+                }
+            }
+        }
+        .parmain-rev-support{
+            img{
+                width: $size-sp-img;
+                @media screen and (min-width:$breakpoint){
+                    width: 25%;
+                }
+            }
+        }
+    }
+}
+
+.comheader{
+    .comheader-copy{
+        img{
+            width: $size-sp-img;
+            @media screen and (min-width:$breakpoint) {
+                width: 25%;
+            }
+        }
+    }
+}
+.commain{
+    .commain-info{
+        .commain-info-about{
+            img{
+                width: 100%;
+                @media screen and (min-width:$breakpoint) {
+                    width: 100%;
+                }
+            }
+        }
+        .commain-info-merit{
+            img{
+                width: 30%;
+                @media screen and (min-width:$breakpoint) {
+                    width: 30%;
+                }
+            }
+        }
+    }
+    .commain-rev-support{
+        img{
+            width: $size-sp-img;
+            @media screen and (min-width:$breakpoint){
+                width: 25%;
+            }
+        }
+    }
+}
+
+
+
+
