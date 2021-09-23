@@ -1107,6 +1107,9 @@ header > *, main > *, footer > * {
   }
 }
 
+.commain .commain-info {
+  width: 70%;
+}
 .commain .commain-info .commain-info-about {
   padding-top: 48px;
   padding-bottom: 119px;
