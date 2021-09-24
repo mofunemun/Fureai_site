@@ -4,7 +4,7 @@ body {
   font-family: "M PLUS Rounded 1c", sans-serif;
   font-size: 16px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   body {
     font-size: 30px;
   }
@@ -12,7 +12,7 @@ body {
 body .para-s {
   font-size: 12px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   body .para-s {
     font-size: 24px;
   }
@@ -20,7 +20,7 @@ body .para-s {
 body .para-l {
   font-size: 20px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   body .para-l {
     font-size: 36px;
   }
@@ -33,7 +33,7 @@ body .section-headline {
   font-weight: bold;
   text-align: center;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   body .section-headline {
     font-size: calc(54px - 4px);
   }
@@ -48,7 +48,7 @@ header > *, main > *, footer > * {
   width: 70%;
   margin: 0 auto;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   header > *, main > *, footer > * {
     width: 85%;
     margin: 0 auto;
@@ -65,7 +65,7 @@ header > *, main > *, footer > * {
   padding: 32px 0;
   background: linear-gradient(0deg, #fff39d 0%, rgba(255, 243, 157, 0.3519782913) 25%, rgba(255, 243, 157, 0.2567401961) 78%, #fff39d 100%);
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .indexheader {
     display: block;
     position: relative;
@@ -88,7 +88,7 @@ header > *, main > *, footer > * {
 .indexheader .indexheader-copy .right {
   text-align: right;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .indexheader .indexheader-copy {
     font-size: 36px;
     padding: 0;
@@ -105,7 +105,7 @@ header > *, main > *, footer > * {
   text-align: center;
   color: white;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .indexheader .indexheader-headline {
     width: 100vw;
     background: none;
@@ -120,7 +120,7 @@ header > *, main > *, footer > * {
   width: 100%;
   padding-top: 32px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .indexheader .indexheader-image img {
     width: 25%;
     position: absolute;
@@ -132,7 +132,7 @@ header > *, main > *, footer > * {
   padding-top: 32px;
   font-size: calc(32px - 4px);
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .indexheader p {
     padding-top: 0;
     width: 50%;
@@ -145,7 +145,7 @@ header > *, main > *, footer > * {
 .indexheader .pc-only {
   display: none;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .indexheader .pc-only {
     display: block;
     width: 20%;
@@ -159,7 +159,7 @@ header > *, main > *, footer > * {
   padding-top: 48px;
   padding-bottom: 119px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .indexmain .indexmain-info {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -168,7 +168,7 @@ header > *, main > *, footer > * {
 .indexmain .indexmain-info .indexmain-info-about {
   padding-bottom: 32px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .indexmain .indexmain-info .indexmain-info-about {
     padding-bottom: 150px;
   }
@@ -176,7 +176,7 @@ header > *, main > *, footer > * {
 .indexmain .indexmain-info .indexmain-info-about div {
   padding-top: 32px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .indexmain .indexmain-info .indexmain-info-about div {
     padding-top: 150px;
     display: flex;
@@ -187,12 +187,12 @@ header > *, main > *, footer > * {
   padding-top: 32px;
   width: 100%;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .indexmain .indexmain-info .indexmain-info-about img {
     width: 30%;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .indexmain .indexmain-info .indexmain-info-about p {
     width: 60%;
   }
@@ -200,7 +200,7 @@ header > *, main > *, footer > * {
 .indexmain .indexmain-info .indexmain-info-date {
   padding-bottom: 119px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .indexmain .indexmain-info .indexmain-info-date {
     padding-bottom: 200px;
   }
@@ -208,7 +208,7 @@ header > *, main > *, footer > * {
 .indexmain .indexmain-info .indexmain-info-date .indexmain-info-date-disc {
   padding-top: 32px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .indexmain .indexmain-info .indexmain-info-date .indexmain-info-date-disc {
     display: flex;
     padding-top: 100px;
@@ -221,7 +221,7 @@ header > *, main > *, footer > * {
   height: 0;
   padding-top: 69%;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .indexmain .indexmain-info .indexmain-info-date .indexmain-info-date-disc .indexmain-info-date-disc-map {
     width: 45%;
     padding-top: 37%;
@@ -238,7 +238,7 @@ header > *, main > *, footer > * {
   padding-top: 32px;
   width: 100%;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .indexmain .indexmain-info .indexmain-info-date .indexmain-info-date-disc .indexmain-info-date-disc-para {
     padding-top: 0;
     width: 45%;
@@ -254,7 +254,7 @@ header > *, main > *, footer > * {
 .indexmain .indexmain-info .indexmain-info-links {
   padding-bottom: 119px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .indexmain .indexmain-info .indexmain-info-links {
     display: flex;
     justify-content: space-between;
@@ -264,7 +264,7 @@ header > *, main > *, footer > * {
 .indexmain .indexmain-info .indexmain-info-links :nth-child(1) {
   padding-bottom: 48px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .indexmain .indexmain-info .indexmain-info-links :nth-child(1) {
     padding: 0;
   }
@@ -272,7 +272,7 @@ header > *, main > *, footer > * {
 .indexmain .indexmain-info .indexmain-info-links > div {
   text-align: center;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .indexmain .indexmain-info .indexmain-info-links > div {
     width: 45%;
   }
@@ -283,7 +283,7 @@ header > *, main > *, footer > * {
 .indexmain .indexmain-info .indexmain-info-links > div h3 .red {
   color: #E5356B;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .indexmain .indexmain-info .indexmain-info-links > div h3 {
     font-size: 36px;
     height: 110px;
@@ -293,7 +293,7 @@ header > *, main > *, footer > * {
   width: 50%;
   padding-bottom: 32px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .indexmain .indexmain-info .indexmain-info-links > div img {
     width: auto;
     height: 300px;
@@ -304,10 +304,10 @@ header > *, main > *, footer > * {
   text-align: left;
   padding-bottom: 32px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .indexmain .indexmain-info .indexmain-info-links > div p {
     font-size: 30px;
-    height: 300px;
+    height: 350px;
   }
 }
 .indexmain .indexmain-info .indexmain-info-links > div a {
@@ -320,7 +320,7 @@ header > *, main > *, footer > * {
   text-decoration: none;
   color: black;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .indexmain .indexmain-info .indexmain-info-links > div a {
     margin: 0 auto;
     width: 100%;
@@ -332,7 +332,7 @@ header > *, main > *, footer > * {
   height: 100%;
   line-height: 56px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .indexmain .indexmain-info .indexmain-info-links > div a div {
     line-height: 90px;
   }
@@ -340,12 +340,12 @@ header > *, main > *, footer > * {
 .indexmain .indexmain-info .indexmain-info-movie h3 {
   padding-bottom: 32px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .indexmain .indexmain-info .indexmain-info-movie h3 {
     padding-bottom: 150px;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .indexmain .indexmain-info .indexmain-info-movie > div {
     display: flex;
     justify-content: space-between;
@@ -357,7 +357,7 @@ header > *, main > *, footer > * {
   height: 0;
   padding-top: 69%;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .indexmain .indexmain-info .indexmain-info-movie .indexmain-info-movie-container {
     width: 45%;
     padding-top: 25%;
@@ -373,7 +373,7 @@ header > *, main > *, footer > * {
 .indexmain .indexmain-info .indexmain-info-movie .indexmain-info-movie-desc {
   padding-top: 32px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .indexmain .indexmain-info .indexmain-info-movie .indexmain-info-movie-desc {
     width: 45%;
     padding: 0;
@@ -387,7 +387,7 @@ header > *, main > *, footer > * {
   background: linear-gradient(0deg, #fff39d 0%, rgba(255, 243, 157, 0.3519782913) 25%, rgba(255, 243, 157, 0.2567401961) 78%, #fff39d 100%);
   padding: 48px 0;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .indexmain .indexmain-rev {
     padding: 100px 0;
   }
@@ -396,7 +396,7 @@ header > *, main > *, footer > * {
   width: 70%;
   margin: 0 auto;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .indexmain .indexmain-rev > * {
     width: 85%;
   }
@@ -404,7 +404,7 @@ header > *, main > *, footer > * {
 .indexmain .indexmain-rev h3 {
   padding-bottom: 32px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .indexmain .indexmain-rev h3 {
     padding-bottom: 150px;
   }
@@ -412,7 +412,7 @@ header > *, main > *, footer > * {
 .indexmain .indexmain-rev p, .indexmain .indexmain-rev div {
   padding-bottom: 32px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .indexmain .indexmain-rev p, .indexmain .indexmain-rev div {
     padding-bottom: 100px;
     font-size: 36px;
@@ -421,7 +421,7 @@ header > *, main > *, footer > * {
 .indexmain .indexmain-rev :nth-child(5) {
   padding-bottom: 48px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .indexmain .indexmain-rev :nth-child(5) {
     padding-bottom: 200px;
   }
@@ -432,12 +432,12 @@ header > *, main > *, footer > * {
 .indexmain .indexmain-rev .indexmain-rev-review img {
   width: 100%;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .indexmain .indexmain-rev .indexmain-rev-review img {
     width: 50%;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .indexmain .indexmain-rev .indexmain-rev-review .half-half {
     display: flex;
     justify-content: space-around;
@@ -448,7 +448,7 @@ header > *, main > *, footer > * {
   width: 49%;
   height: auto;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .indexmain .indexmain-rev .indexmain-rev-review .half-half img {
     width: calc(49% / 2);
   }
@@ -457,31 +457,57 @@ header > *, main > *, footer > * {
   width: 100%;
   padding-bottom: 32px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .indexmain .indexmain-rev .indexmain-rev-support img {
     width: 25%;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .indexmain .indexmain-rev .indexmain-rev-support p.center {
-    width: 60%;
+    width: 100%;
     margin: 0 auto;
     font-size: 54px;
     font-weight: bold;
   }
 }
-@media screen and (min-width: 769px) {
-  .indexmain .indexmain-rev .indexmain-rev-support p.para-s {
-    width: 60%;
-    margin: 0 auto;
-    text-align: left;
+.indexmain .indexmain-rev .indexmain-rev-support .indexmain-rev-support-supporters {
+  text-align: left;
+  list-style: none;
+  list-style-position: outside;
+  width: 80%;
+  font-size: 12px;
+  margin-left: calc(12px * 3);
+}
+@media screen and (min-width: 950px) {
+  .indexmain .indexmain-rev .indexmain-rev-support .indexmain-rev-support-supporters {
+    margin-right: 10%;
+    margin-left: calc(10% + 24px * 3);
+    font-size: 24px;
+  }
+}
+.indexmain .indexmain-rev .indexmain-rev-support .indexmain-rev-support-supporters .list1::before {
+  content: "後援：";
+  margin-left: calc(12px * -3);
+}
+@media screen and (min-width: 950px) {
+  .indexmain .indexmain-rev .indexmain-rev-support .indexmain-rev-support-supporters .list1::before {
+    margin-left: calc(24px * -3);
+  }
+}
+.indexmain .indexmain-rev .indexmain-rev-support .indexmain-rev-support-supporters .list2::before {
+  content: "協力：";
+  margin-left: calc(12px * -3);
+}
+@media screen and (min-width: 950px) {
+  .indexmain .indexmain-rev .indexmain-rev-support .indexmain-rev-support-supporters .list2::before {
+    margin-left: calc(24px * -3);
   }
 }
 
 .indexfooter .indexfooter-links {
   padding: 119px 0;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .indexfooter .indexfooter-links {
     display: flex;
     justify-content: space-between;
@@ -492,12 +518,12 @@ header > *, main > *, footer > * {
 .indexfooter .indexfooter-links > div:nth-child(1) {
   padding-bottom: 48px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .indexfooter .indexfooter-links > div:nth-child(1) {
     padding-bottom: 0;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .indexfooter .indexfooter-links > div {
     width: 45%;
   }
@@ -515,7 +541,7 @@ header > *, main > *, footer > * {
   text-decoration: none;
   color: black;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .indexfooter .indexfooter-links > div a {
     height: 90px;
     border-radius: 24px;
@@ -525,7 +551,7 @@ header > *, main > *, footer > * {
   height: 100%;
   line-height: 56px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .indexfooter .indexfooter-links > div a div {
     line-height: 90px;
   }
@@ -533,7 +559,7 @@ header > *, main > *, footer > * {
 .indexfooter .indexfooter-address {
   padding-bottom: 48px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .indexfooter .indexfooter-address {
     padding-bottom: 150px;
   }
@@ -541,7 +567,7 @@ header > *, main > *, footer > * {
 .indexfooter .indexfooter-address .para-s {
   padding-bottom: 16px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .indexfooter .indexfooter-address .para-s {
     padding-bottom: 24px;
   }
@@ -551,7 +577,7 @@ header > *, main > *, footer > * {
   background: linear-gradient(0deg, #fff39d 0%, rgba(255, 243, 157, 0.3519782913) 25%, rgba(255, 243, 157, 0.2567401961) 78%, #fff39d 100%);
   padding: 48px 0;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .parheader {
     padding-top: 66px;
     padding-bottom: 100px;
@@ -562,13 +588,13 @@ header > *, main > *, footer > * {
   font-size: calc(32px + 5px);
   padding-bottom: 48px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .parheader .parheader-headline {
     font-size: calc(54px * 2);
     text-align: left;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .parheader .parheader-copy {
     display: flex;
   }
@@ -578,7 +604,7 @@ header > *, main > *, footer > * {
   font-size: calc(32px - 4px);
   padding-bottom: 32px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .parheader .parheader-copy h2 {
     width: 55%;
     font-size: calc(54px - 4px);
@@ -586,7 +612,7 @@ header > *, main > *, footer > * {
     padding-bottom: 150px;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .parheader .parheader-copy div {
     width: 40%;
     padding-bottom: 100px;
@@ -596,12 +622,12 @@ header > *, main > *, footer > * {
   width: 100%;
   padding-bottom: 32px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .parheader .parheader-copy div img {
     width: 100%;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .parheader .parheader-copy .parheader-line {
     font-size: 30px;
   }
@@ -611,7 +637,7 @@ header > *, main > *, footer > * {
   padding-top: 48px;
   padding-bottom: 32px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .parmain .parmain-info .parmain-info-about {
     padding-top: 200px;
     padding-bottom: 200px;
@@ -620,7 +646,7 @@ header > *, main > *, footer > * {
 .parmain .parmain-info .parmain-info-about h3 {
   padding-bottom: 48px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .parmain .parmain-info .parmain-info-about h3 {
     padding-bottom: 150px;
   }
@@ -628,12 +654,12 @@ header > *, main > *, footer > * {
 .parmain .parmain-info .parmain-info-about p, .parmain .parmain-info .parmain-info-about img {
   padding-bottom: 32px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .parmain .parmain-info .parmain-info-about p, .parmain .parmain-info .parmain-info-about img {
     padding-bottom: 0;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .parmain .parmain-info .parmain-info-about > div {
     display: flex;
     justify-content: space-between;
@@ -643,7 +669,7 @@ header > *, main > *, footer > * {
 .parmain .parmain-info .parmain-info-about > div p {
   text-align: left;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .parmain .parmain-info .parmain-info-about > div p {
     width: 60%;
   }
@@ -651,18 +677,18 @@ header > *, main > *, footer > * {
 .parmain .parmain-info .parmain-info-about > div img {
   width: 50%;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .parmain .parmain-info .parmain-info-about > div img {
     display: block;
     width: 35%;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .parmain .parmain-info .parmain-info-about .parmain-info-about-sec2 {
     flex-direction: row-reverse;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .parmain .parmain-info .parmain-info-about .parmain-info-about-sec3 {
     padding-bottom: 0;
   }
@@ -670,7 +696,7 @@ header > *, main > *, footer > * {
 .parmain .parmain-info .parmain-info-date {
   padding-bottom: 119px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .parmain .parmain-info .parmain-info-date {
     padding-bottom: 200px;
   }
@@ -678,7 +704,7 @@ header > *, main > *, footer > * {
 .parmain .parmain-info .parmain-info-date .parmain-info-date-disc {
   padding-top: 48px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .parmain .parmain-info .parmain-info-date .parmain-info-date-disc {
     display: flex;
     padding-top: 100px;
@@ -691,7 +717,7 @@ header > *, main > *, footer > * {
   height: 0;
   padding-top: 69%;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .parmain .parmain-info .parmain-info-date .parmain-info-date-disc .parmain-info-date-disc-map {
     width: 45%;
     padding-top: 37%;
@@ -708,7 +734,7 @@ header > *, main > *, footer > * {
   padding-top: 32px;
   width: 100%;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .parmain .parmain-info .parmain-info-date .parmain-info-date-disc .parmain-info-date-disc-para {
     padding-top: 0;
     width: 45%;
@@ -724,7 +750,7 @@ header > *, main > *, footer > * {
 .parmain .parmain-info .parmain-info-items {
   padding-bottom: 119px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .parmain .parmain-info .parmain-info-items {
     padding-bottom: 200px;
   }
@@ -732,12 +758,12 @@ header > *, main > *, footer > * {
 .parmain .parmain-info .parmain-info-items h3 {
   padding-bottom: 48px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .parmain .parmain-info .parmain-info-items h3 {
     padding-bottom: 150px;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .parmain .parmain-info .parmain-info-items > div {
     display: flex;
     justify-content: space-between;
@@ -747,7 +773,7 @@ header > *, main > *, footer > * {
 .parmain .parmain-info .parmain-info-items > div > p {
   padding-bottom: 32px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .parmain .parmain-info .parmain-info-items > div > p {
     padding-bottom: 0;
     width: 50%;
@@ -756,7 +782,7 @@ header > *, main > *, footer > * {
 .parmain .parmain-info .parmain-info-items > div > div {
   padding-bottom: 32px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .parmain .parmain-info .parmain-info-items > div > div {
     padding-bottom: 0;
     width: 45%;
@@ -767,7 +793,7 @@ header > *, main > *, footer > * {
 .parmain .parmain-info .parmain-info-items img {
   width: 49%;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .parmain .parmain-info .parmain-info-items img {
     width: 25%;
     display: block;
@@ -776,7 +802,7 @@ header > *, main > *, footer > * {
 .parmain .parmain-info .parmain-info-flow {
   padding-bottom: 119px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .parmain .parmain-info .parmain-info-flow {
     padding-bottom: 100px;
   }
@@ -784,23 +810,23 @@ header > *, main > *, footer > * {
 .parmain .parmain-info .parmain-info-flow h3 {
   padding-bottom: 48px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .parmain .parmain-info .parmain-info-flow h3 {
     padding-bottom: 150px;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .parmain .parmain-info .parmain-info-flow .parmain-info-flow-steps :nth-child(1) > p {
     padding-bottom: 120px;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .parmain .parmain-info .parmain-info-flow .parmain-info-flow-steps :nth-child(4) > img {
     padding-top: 80px;
     width: 70%;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .parmain .parmain-info .parmain-info-flow .parmain-info-flow-steps {
     display: flex;
     flex-wrap: wrap;
@@ -813,7 +839,7 @@ header > *, main > *, footer > * {
   border: solid 1px black;
   padding: 32px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .parmain .parmain-info .parmain-info-flow .parmain-info-flow-steps > div {
     width: 45%;
   }
@@ -834,7 +860,7 @@ header > *, main > *, footer > * {
   text-align: left;
   padding-bottom: 16px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .parmain .parmain-info .parmain-info-flow .parmain-info-flow-steps > div p {
     font-size: calc(24px - 4px);
   }
@@ -849,7 +875,7 @@ header > *, main > *, footer > * {
   text-decoration: none;
   color: black;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .parmain .parmain-info .parmain-info-flow .parmain-info-flow-steps > div a {
     height: 90px;
     border-radius: 24px;
@@ -859,7 +885,7 @@ header > *, main > *, footer > * {
   height: 100%;
   line-height: 56px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .parmain .parmain-info .parmain-info-flow .parmain-info-flow-steps > div a div {
     line-height: 90px;
   }
@@ -867,7 +893,7 @@ header > *, main > *, footer > * {
 .parmain .parmain-info .parmain-info-flow img {
   width: 49%;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .parmain .parmain-info .parmain-info-flow img {
     width: 40%;
   }
@@ -877,7 +903,7 @@ header > *, main > *, footer > * {
   background: linear-gradient(0deg, #fff39d 0%, rgba(255, 243, 157, 0.3519782913) 25%, rgba(255, 243, 157, 0.2567401961) 78%, #fff39d 100%);
   padding: 48px 0;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .parmain .parmain-rev {
     padding: 100px 0;
   }
@@ -886,7 +912,7 @@ header > *, main > *, footer > * {
   width: 70%;
   margin: 0 auto;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .parmain .parmain-rev > * {
     width: 85%;
   }
@@ -894,7 +920,7 @@ header > *, main > *, footer > * {
 .parmain .parmain-rev h3 {
   padding-bottom: 32px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .parmain .parmain-rev h3 {
     padding-bottom: 150px;
   }
@@ -902,7 +928,7 @@ header > *, main > *, footer > * {
 .parmain .parmain-rev p, .parmain .parmain-rev div {
   padding-bottom: 32px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .parmain .parmain-rev p, .parmain .parmain-rev div {
     padding-bottom: 100px;
     font-size: 36px;
@@ -911,7 +937,7 @@ header > *, main > *, footer > * {
 .parmain .parmain-rev :nth-child(5) {
   padding-bottom: 48px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .parmain .parmain-rev :nth-child(5) {
     padding-bottom: 200px;
   }
@@ -922,12 +948,12 @@ header > *, main > *, footer > * {
 .parmain .parmain-rev .parmain-rev-review img {
   width: 100%;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .parmain .parmain-rev .parmain-rev-review img {
     width: 50%;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .parmain .parmain-rev .parmain-rev-review .half-half {
     display: flex;
     justify-content: space-around;
@@ -938,7 +964,7 @@ header > *, main > *, footer > * {
   width: 49%;
   height: auto;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .parmain .parmain-rev .parmain-rev-review .half-half img {
     width: calc(49% / 2);
   }
@@ -947,12 +973,12 @@ header > *, main > *, footer > * {
   width: 100%;
   padding-bottom: 32px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .parmain .parmain-rev .parmain-rev-support img {
     width: 25%;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .parmain .parmain-rev .parmain-rev-support p.center {
     width: 60%;
     margin: 0 auto;
@@ -963,7 +989,7 @@ header > *, main > *, footer > * {
 .parmain .parmain-rev .parmain-rev-support p.para-s {
   text-align: left;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .parmain .parmain-rev .parmain-rev-support p.para-s {
     width: 60%;
     margin: 0 auto;
@@ -973,7 +999,7 @@ header > *, main > *, footer > * {
 .parfooter .parfooter-links {
   padding: 119px 0;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .parfooter .parfooter-links {
     display: flex;
     justify-content: space-between;
@@ -984,12 +1010,12 @@ header > *, main > *, footer > * {
 .parfooter .parfooter-links > div:nth-child(1) {
   padding-bottom: 48px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .parfooter .parfooter-links > div:nth-child(1) {
     padding-bottom: 0;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .parfooter .parfooter-links > div {
     width: 45%;
   }
@@ -1007,7 +1033,7 @@ header > *, main > *, footer > * {
   text-decoration: none;
   color: black;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .parfooter .parfooter-links > div a {
     height: 90px;
     border-radius: 24px;
@@ -1017,7 +1043,7 @@ header > *, main > *, footer > * {
   height: 100%;
   line-height: 56px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .parfooter .parfooter-links > div a div {
     line-height: 90px;
   }
@@ -1025,7 +1051,7 @@ header > *, main > *, footer > * {
 .parfooter .parfooter-address {
   padding-bottom: 48px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .parfooter .parfooter-address {
     padding-bottom: 150px;
   }
@@ -1033,7 +1059,7 @@ header > *, main > *, footer > * {
 .parfooter .parfooter-address .para-s {
   padding-bottom: 16px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .parfooter .parfooter-address .para-s {
     padding-bottom: 24px;
   }
@@ -1043,7 +1069,7 @@ header > *, main > *, footer > * {
   background: linear-gradient(0deg, #fff39d 0%, rgba(255, 243, 157, 0.3519782913) 25%, rgba(255, 243, 157, 0.2567401961) 78%, #fff39d 100%);
   padding: 48px 0;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .comheader {
     padding-top: 66px;
     padding-bottom: 100px;
@@ -1054,13 +1080,13 @@ header > *, main > *, footer > * {
   font-size: calc(32px + 5px);
   padding-bottom: 48px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .comheader .comheader-headline {
     font-size: calc(54px * 2);
     text-align: left;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .comheader .comheader-copy {
     display: flex;
     justify-content: space-between;
@@ -1071,7 +1097,7 @@ header > *, main > *, footer > * {
   font-size: calc(32px - 4px);
   padding-bottom: 32px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .comheader .comheader-copy h2 {
     width: 55%;
     font-size: calc(54px - 2px);
@@ -1079,13 +1105,13 @@ header > *, main > *, footer > * {
     padding-bottom: 100px;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .comheader .comheader-copy div {
     width: 40%;
     padding-bottom: 100px;
   }
 }
-@media screen and (min-width: 769px) and (min-width: 769px) {
+@media screen and (min-width: 950px) and (min-width: 950px) {
   .comheader .comheader-copy div {
     padding-bottom: 100px;
     width: 55%;
@@ -1095,13 +1121,13 @@ header > *, main > *, footer > * {
   width: 100%;
   padding-bottom: 32px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .comheader .comheader-copy div img {
     width: 100%;
     padding-bottom: 0;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .comheader .comheader-copy .comheader-line {
     font-size: 30px;
   }
@@ -1114,7 +1140,7 @@ header > *, main > *, footer > * {
   padding-top: 48px;
   padding-bottom: 119px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .commain .commain-info .commain-info-about {
     padding-top: 150px;
     padding-bottom: 200px;
@@ -1124,7 +1150,7 @@ header > *, main > *, footer > * {
   width: 100%;
   padding-bottom: 48px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .commain .commain-info .commain-info-about h3 {
     padding-bottom: 150px;
     width: 100%;
@@ -1137,7 +1163,7 @@ header > *, main > *, footer > * {
   padding-bottom: 32px;
   width: 100%;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .commain .commain-info .commain-info-about p, .commain .commain-info .commain-info-about img {
     margin: 0 auto;
     padding-bottom: 100px;
@@ -1146,7 +1172,7 @@ header > *, main > *, footer > * {
 .commain .commain-info .commain-info-about div {
   width: 100%;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .commain .commain-info .commain-info-about div {
     width: 100%;
     text-align: center;
@@ -1156,7 +1182,7 @@ header > *, main > *, footer > * {
 .commain .commain-info .commain-info-merit {
   padding-bottom: 119px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .commain .commain-info .commain-info-merit {
     padding-bottom: 150px;
   }
@@ -1165,7 +1191,7 @@ header > *, main > *, footer > * {
   width: 100%;
   padding-bottom: 48px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .commain .commain-info .commain-info-merit h3 {
     padding-bottom: 150px;
   }
@@ -1173,7 +1199,7 @@ header > *, main > *, footer > * {
 .commain .commain-info .commain-info-merit > p {
   padding-bottom: 48px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .commain .commain-info .commain-info-merit > p {
     padding-bottom: 100px;
   }
@@ -1184,7 +1210,7 @@ header > *, main > *, footer > * {
   justify-content: space-between;
   padding-bottom: 16px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .commain .commain-info .commain-info-merit .commain-info-merit-profile {
     padding-bottom: 100px;
   }
@@ -1195,7 +1221,7 @@ header > *, main > *, footer > * {
 .commain .commain-info .commain-info-merit img {
   width: 30%;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .commain .commain-info .commain-info-merit img {
     width: 30%;
   }
@@ -1204,7 +1230,7 @@ header > *, main > *, footer > * {
   font-size: 20px;
   padding-bottom: 32px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .commain .commain-info .commain-info-merit .commain-info-merit-flow h4 {
     font-size: 54px;
     padding-bottom: 100px;
@@ -1219,7 +1245,7 @@ header > *, main > *, footer > * {
   justify-content: space-between;
   padding: 0 12.5%;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .commain .commain-info .commain-info-merit .commain-info-merit-flow .arrow-container {
     padding: 0 20%;
   }
@@ -1227,7 +1253,7 @@ header > *, main > *, footer > * {
 .commain .commain-info .commain-info-merit .commain-info-merit-flow .arrow-container img {
   width: 25%;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .commain .commain-info .commain-info-merit .commain-info-merit-flow .arrow-container img {
     width: 10%;
   }
@@ -1242,7 +1268,7 @@ header > *, main > *, footer > * {
   padding: 10px;
   text-align: center;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .commain .commain-info .commain-info-merit .commain-info-merit-flow .y-part, .commain .commain-info .commain-info-merit .commain-info-merit-flow .w-part {
     padding: 30px;
     border-radius: 30px;
@@ -1259,7 +1285,7 @@ header > *, main > *, footer > * {
   background: linear-gradient(0deg, #fff39d 0%, rgba(255, 243, 157, 0.3519782913) 25%, rgba(255, 243, 157, 0.2567401961) 78%, #fff39d 100%);
   padding: 48px 0;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .commain .commain-rev {
     padding: 100px 0;
   }
@@ -1268,7 +1294,7 @@ header > *, main > *, footer > * {
   width: 70%;
   margin: 0 auto;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .commain .commain-rev > * {
     width: 85%;
   }
@@ -1276,7 +1302,7 @@ header > *, main > *, footer > * {
 .commain .commain-rev h3 {
   padding-bottom: 32px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .commain .commain-rev h3 {
     padding-bottom: 150px;
   }
@@ -1284,7 +1310,7 @@ header > *, main > *, footer > * {
 .commain .commain-rev p, .commain .commain-rev div {
   padding-bottom: 32px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .commain .commain-rev p, .commain .commain-rev div {
     padding-bottom: 100px;
     font-size: 36px;
@@ -1293,7 +1319,7 @@ header > *, main > *, footer > * {
 .commain .commain-rev :nth-child(5) {
   padding-bottom: 48px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .commain .commain-rev :nth-child(5) {
     padding-bottom: 200px;
   }
@@ -1304,12 +1330,12 @@ header > *, main > *, footer > * {
 .commain .commain-rev .commain-rev-review img {
   width: 100%;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .commain .commain-rev .commain-rev-review img {
     width: 50%;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .commain .commain-rev .commain-rev-review .half-half {
     display: flex;
     justify-content: space-around;
@@ -1320,7 +1346,7 @@ header > *, main > *, footer > * {
   width: 49%;
   height: auto;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .commain .commain-rev .commain-rev-review .half-half img {
     width: calc(49% / 2);
   }
@@ -1329,12 +1355,12 @@ header > *, main > *, footer > * {
   width: 100%;
   padding-bottom: 32px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .commain .commain-rev .commain-rev-support img {
     width: 25%;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .commain .commain-rev .commain-rev-support p.center {
     width: 60%;
     margin: 0 auto;
@@ -1345,7 +1371,7 @@ header > *, main > *, footer > * {
 .commain .commain-rev .commain-rev-support p.para-s {
   text-align: left;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .commain .commain-rev .commain-rev-support p.para-s {
     width: 60%;
     margin: 0 auto;
@@ -1355,7 +1381,7 @@ header > *, main > *, footer > * {
 .comfooter .comfooter-links {
   padding: 119px 0;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .comfooter .comfooter-links {
     display: flex;
     justify-content: space-between;
@@ -1366,12 +1392,12 @@ header > *, main > *, footer > * {
 .comfooter .comfooter-links > div:nth-child(1) {
   padding-bottom: 48px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .comfooter .comfooter-links > div:nth-child(1) {
     padding-bottom: 0;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .comfooter .comfooter-links > div {
     width: 45%;
   }
@@ -1389,7 +1415,7 @@ header > *, main > *, footer > * {
   text-decoration: none;
   color: black;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .comfooter .comfooter-links > div a {
     height: 90px;
     border-radius: 24px;
@@ -1399,7 +1425,7 @@ header > *, main > *, footer > * {
   height: 100%;
   line-height: 56px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .comfooter .comfooter-links > div a div {
     line-height: 90px;
   }
@@ -1407,7 +1433,7 @@ header > *, main > *, footer > * {
 .comfooter .comfooter-address {
   padding-bottom: 48px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .comfooter .comfooter-address {
     padding-bottom: 150px;
   }
@@ -1415,7 +1441,7 @@ header > *, main > *, footer > * {
 .comfooter .comfooter-address .para-s {
   padding-bottom: 16px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 950px) {
   .comfooter .comfooter-address .para-s {
     padding-bottom: 24px;
   }

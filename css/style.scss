@@ -11,7 +11,7 @@ $size-pc-large:36px;
 $size-pc-para:30px;
 $size-pc-small:24px;
 
-$breakpoint: 769px;
+$breakpoint: 950px;
 
 $size-sp-img: 100%;
 $size-half-img: 49%;
@@ -297,7 +297,7 @@ header>*,main>*,footer>*{
                     padding-bottom: $space-sp-sect;
                     @media screen and (min-width:$breakpoint) {
                         font-size: $size-pc-para;
-                        height: 300px;
+                        height: 350px;
                     }
                 }
                 a{
@@ -436,17 +436,37 @@ header>*,main>*,footer>*{
             }
             p.center{
                 @media screen and (min-width:$breakpoint) {
-                    width: 60%;
+                    width: 100%;
                     margin: 0 auto;
                     font-size: $size-pc-headline;
                     font-weight: bold;
                 }
             }
-            p.para-s{
+            .indexmain-rev-support-supporters{
+                text-align: left;
+                list-style: none;
+                list-style-position: outside;
+                width: 80%;
+                font-size: $size-sp-small;
+                margin-left:calc(#{$size-sp-small} * 3);
                 @media screen and (min-width:$breakpoint){
-                    width: 60%;
-                    margin: 0 auto;
-                    text-align: left;
+                    margin-right: 10%;
+                    margin-left:calc(10% + #{$size-pc-small} * 3);
+                    font-size: $size-pc-small;
+                }
+                .list1::before{
+                    content: '後援：';
+                    margin-left: calc(#{$size-sp-small} * -3);
+                    @media screen and (min-width:$breakpoint) {
+                        margin-left: calc(#{$size-pc-small} * -3);
+                    }
+                }
+                .list2::before{
+                    content: '協力：';
+                    margin-left: calc(#{$size-sp-small} * -3);
+                    @media screen and (min-width:$breakpoint) {
+                        margin-left: calc(#{$size-pc-small} * -3);
+                    }
                 }
             }
         }
