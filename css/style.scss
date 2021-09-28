@@ -2,7 +2,7 @@
 
 $marumozi: 'M PLUS Rounded 1c', sans-serif;
 $minchou: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体','ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
-$size-sp-headline: 32px;
+$size-sp-headline: calc(1.5rem + ((1vw - 3.2px) * 0.9539));
 $size-pc-headline: 54px;
 $size-sp-large:20px;
 $size-sp-para:16px;
@@ -108,6 +108,10 @@ header>*,main>*,footer>*{
         h2{
             padding-top: $space-sp-small;
             color: $color-orange;
+            font-size: calc(1rem + ((1vw - 3.2px) * 3.1797));
+            @media screen and (min-width) {
+                font-size: $size-pc-large;
+            }
         }
         .center{
             text-align: center;
@@ -130,6 +134,7 @@ header>*,main>*,footer>*{
         padding: 6px 0;
         text-align: center;
         color: white;
+        font-size: $size-sp-headline;
         @media screen and (min-width:$breakpoint) {
             width: 100vw;
             background: none;
@@ -141,14 +146,18 @@ header>*,main>*,footer>*{
         }
     }
     .indexheader-image{
+        @media screen and (min-width:$breakpoint) {
+            width: 25%;
+            max-height: 60vh;
+            position: absolute;
+            top:172px;
+            left: 10%;
+        }
         img{
             width: $size-sp-img;
             padding-top: $space-sp-sect;
             @media screen and (min-width:$breakpoint) {
-                width: 25%;
-                position: absolute;
-                top:172px;
-                left: 10%;
+                width: 100%;
             }
         }
     }
@@ -158,9 +167,9 @@ header>*,main>*,footer>*{
         @media screen and (min-width:$breakpoint) {
             padding-top: 0;
             width: 50%;
-            font-size: $size-pc-large;
+            font-size: calc(#{$size-pc-headline} - 4px);
             position: absolute;
-            top: 500px;
+            bottom: 20vh;
             left: 40%;
         }
     }
@@ -342,19 +351,12 @@ header>*,main>*,footer>*{
             .indexmain-info-movie-container{
                 position: relative;
                 width: 100%;
-                height: 0;
-                padding-top: 69%;
                 @media screen and (min-width:$breakpoint) {
                     width: 45%;
-                    padding-top: 25%;
                 }
-            }
-            iframe{
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
+                video{
+                    width: 100%;
+                }
             }
             .indexmain-info-movie-desc{
                 padding-top: $space-sp-sect;
@@ -786,7 +788,6 @@ header>*,main>*,footer>*{
                 }
                 a{
                     display: block;
-                    height: 56px;
                     width: 100%;
                     border-radius: 14px;
                     background-color: $color-green;
@@ -799,9 +800,16 @@ header>*,main>*,footer>*{
                     }
                     div{
                         height: 100%;
-                        line-height: 56px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        padding: 6px 4px;
                         @media screen and (min-width:$breakpoint) {
                             line-height: 90px;
+                        }
+                        p{
+                            padding: 0;
+                            text-align: center;
                         }
                     }
                 }
@@ -882,17 +890,37 @@ header>*,main>*,footer>*{
             }
             p.center{
                 @media screen and (min-width:$breakpoint) {
-                    width: 60%;
+                    width: 100%;
                     margin: 0 auto;
                     font-size: $size-pc-headline;
                     font-weight: bold;
                 }
             }
-            p.para-s{
+            .parmain-rev-support-supporters{
                 text-align: left;
+                list-style: none;
+                list-style-position: outside;
+                width: 80%;
+                font-size: $size-sp-small;
+                margin-left:calc(#{$size-sp-small} * 3);
                 @media screen and (min-width:$breakpoint){
-                    width: 60%;
-                    margin: 0 auto;
+                    margin-right: 10%;
+                    margin-left:calc(10% + #{$size-pc-small} * 3);
+                    font-size: $size-pc-small;
+                }
+                .list1::before{
+                    content: '後援：';
+                    margin-left: calc(#{$size-sp-small} * -3);
+                    @media screen and (min-width:$breakpoint) {
+                        margin-left: calc(#{$size-pc-small} * -3);
+                    }
+                }
+                .list2::before{
+                    content: '協力：';
+                    margin-left: calc(#{$size-sp-small} * -3);
+                    @media screen and (min-width:$breakpoint) {
+                        margin-left: calc(#{$size-pc-small} * -3);
+                    }
                 }
             }
         }
@@ -1209,17 +1237,37 @@ header>*,main>*,footer>*{
             }
             p.center{
                 @media screen and (min-width:$breakpoint) {
-                    width: 60%;
+                    width: 100%;
                     margin: 0 auto;
                     font-size: $size-pc-headline;
                     font-weight: bold;
                 }
             }
-            p.para-s{
+            .commain-rev-support-supporters{
                 text-align: left;
+                list-style: none;
+                list-style-position: outside;
+                width: 80%;
+                font-size: $size-sp-small;
+                margin-left:calc(#{$size-sp-small} * 3);
                 @media screen and (min-width:$breakpoint){
-                    width: 60%;
-                    margin: 0 auto;
+                    margin-right: 10%;
+                    margin-left:calc(10% + #{$size-pc-small} * 3);
+                    font-size: $size-pc-small;
+                }
+                .list1::before{
+                    content: '後援：';
+                    margin-left: calc(#{$size-sp-small} * -3);
+                    @media screen and (min-width:$breakpoint) {
+                        margin-left: calc(#{$size-pc-small} * -3);
+                    }
+                }
+                .list2::before{
+                    content: '協力：';
+                    margin-left: calc(#{$size-sp-small} * -3);
+                    @media screen and (min-width:$breakpoint) {
+                        margin-left: calc(#{$size-pc-small} * -3);
+                    }
                 }
             }
         }
