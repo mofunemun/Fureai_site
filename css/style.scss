@@ -2,13 +2,13 @@
 
 $marumozi: 'M PLUS Rounded 1c', sans-serif;
 $minchou: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体','ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
-$size-sp-headline: calc(1.5rem + ((1vw - 3.2px) * 0.9539));
+$size-sp-headline: calc(1.125rem + ((1vw - 3.75px) * 6.2609));;
 $size-pc-headline: 54px;
 $size-sp-large:20px;
 $size-sp-para:16px;
 $size-sp-small:12px;
-$size-pc-large:36px;
-$size-pc-para:30px;
+$size-pc-large:calc(1.75rem + ((1vw - 9.5px) * 1.4545));
+$size-pc-para:calc(1.5rem + ((1vw - 9.5px) * 1.0909));
 $size-pc-small:24px;
 
 $breakpoint: 950px;
@@ -59,7 +59,7 @@ body{
         font-family: $minchou;
     }
     .section-headline{
-        font-size: calc(#{$size-sp-headline} - 2px);
+        font-size: $size-sp-headline;
         font-weight: bold;
         text-align: center;
         @media screen and (min-width:$breakpoint) {
@@ -679,7 +679,11 @@ header>*,main>*,footer>*{
                         width: 45%;
                     }
                     p{
+                        font-size: $size-sp-para;
                         padding-bottom: $space-sp-small;
+                        @media screen and (min-width:$breakpoint) {
+                            font-size: $size-pc-para;
+                        }
                     }
                     .parmain-info-date-notice{
                         color: $color-red;
@@ -742,16 +746,8 @@ header>*,main>*,footer>*{
                 }
             }
             .parmain-info-flow-steps{
-                :nth-child(1)>p{
-                    @media screen and (min-width:$breakpoint) {
-                        padding-bottom: 120px;
-                    }
-                }
-                :nth-child(4)>img{
-                    @media screen and (min-width:$breakpoint) {
-                        padding-top: 80px;
-                        width: 70%;
-                    }
+                :nth-child(4){
+                    margin-bottom: 0;
                 }
                 @media screen and (min-width:$breakpoint) {
                     display: flex;
@@ -764,6 +760,9 @@ header>*,main>*,footer>*{
                 border-radius: 20px;
                 border: solid 1px black;
                 padding:$space-sp-sect;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
                 @media screen and (min-width:$breakpoint) {
                     width: 45%;
                 }

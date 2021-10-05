@@ -6,7 +6,7 @@ body {
 }
 @media screen and (min-width: 950px) {
   body {
-    font-size: 30px;
+    font-size: calc(1.5rem + ((1vw - 9.5px) * 1.0909));
   }
 }
 body .para-s {
@@ -22,14 +22,14 @@ body .para-l {
 }
 @media screen and (min-width: 950px) {
   body .para-l {
-    font-size: 36px;
+    font-size: calc(1.75rem + ((1vw - 9.5px) * 1.4545));
   }
 }
 body .comheader, body .commain-info {
   font-family: "Yu Mincho Light", "YuMincho", "Yu Mincho", "游明朝体", "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", sans-serif;
 }
 body .section-headline {
-  font-size: calc(calc(1.5rem + ((1vw - 3.2px) * 0.9539)) - 2px);
+  font-size: calc(1.125rem + ((1vw - 3.75px) * 6.2609));
   font-weight: bold;
   text-align: center;
 }
@@ -85,7 +85,7 @@ header > *, main > *, footer > * {
 }
 @media screen and (min-width) {
   .indexheader .indexheader-copy h2 {
-    font-size: 36px;
+    font-size: calc(1.75rem + ((1vw - 9.5px) * 1.4545));
   }
 }
 .indexheader .indexheader-copy .center {
@@ -96,7 +96,7 @@ header > *, main > *, footer > * {
 }
 @media screen and (min-width: 950px) {
   .indexheader .indexheader-copy {
-    font-size: 36px;
+    font-size: calc(1.75rem + ((1vw - 9.5px) * 1.4545));
     padding: 0;
     width: 50%;
     position: absolute;
@@ -110,7 +110,7 @@ header > *, main > *, footer > * {
   padding: 6px 0;
   text-align: center;
   color: white;
-  font-size: calc(1.5rem + ((1vw - 3.2px) * 0.9539));
+  font-size: calc(1.125rem + ((1vw - 3.75px) * 6.2609));
 }
 @media screen and (min-width: 950px) {
   .indexheader .indexheader-headline {
@@ -143,7 +143,7 @@ header > *, main > *, footer > * {
 }
 .indexheader p {
   padding-top: 32px;
-  font-size: calc(calc(1.5rem + ((1vw - 3.2px) * 0.9539)) - 4px);
+  font-size: calc(calc(1.125rem + ((1vw - 3.75px) * 6.2609)) - 4px);
 }
 @media screen and (min-width: 950px) {
   .indexheader p {
@@ -298,7 +298,7 @@ header > *, main > *, footer > * {
 }
 @media screen and (min-width: 950px) {
   .indexmain .indexmain-info .indexmain-info-links > div h3 {
-    font-size: 36px;
+    font-size: calc(1.75rem + ((1vw - 9.5px) * 1.4545));
     height: 110px;
   }
 }
@@ -319,7 +319,7 @@ header > *, main > *, footer > * {
 }
 @media screen and (min-width: 950px) {
   .indexmain .indexmain-info .indexmain-info-links > div p {
-    font-size: 30px;
+    font-size: calc(1.5rem + ((1vw - 9.5px) * 1.0909));
     height: 350px;
   }
 }
@@ -421,7 +421,7 @@ header > *, main > *, footer > * {
 @media screen and (min-width: 950px) {
   .indexmain .indexmain-rev p, .indexmain .indexmain-rev div {
     padding-bottom: 100px;
-    font-size: 36px;
+    font-size: calc(1.75rem + ((1vw - 9.5px) * 1.4545));
   }
 }
 .indexmain .indexmain-rev :nth-child(5) {
@@ -591,7 +591,7 @@ header > *, main > *, footer > * {
 }
 .parheader .parheader-headline {
   text-align: center;
-  font-size: calc(calc(1.5rem + ((1vw - 3.2px) * 0.9539)) + 5px);
+  font-size: calc(calc(1.125rem + ((1vw - 3.75px) * 6.2609)) + 5px);
   padding-bottom: 48px;
 }
 @media screen and (min-width: 950px) {
@@ -607,7 +607,7 @@ header > *, main > *, footer > * {
 }
 .parheader .parheader-copy h2 {
   text-align: center;
-  font-size: calc(calc(1.5rem + ((1vw - 3.2px) * 0.9539)) - 4px);
+  font-size: calc(calc(1.125rem + ((1vw - 3.75px) * 6.2609)) - 4px);
   padding-bottom: 32px;
 }
 @media screen and (min-width: 950px) {
@@ -635,7 +635,7 @@ header > *, main > *, footer > * {
 }
 @media screen and (min-width: 950px) {
   .parheader .parheader-copy .parheader-line {
-    font-size: 30px;
+    font-size: calc(1.5rem + ((1vw - 9.5px) * 1.0909));
   }
 }
 
@@ -747,7 +747,13 @@ header > *, main > *, footer > * {
   }
 }
 .parmain .parmain-info .parmain-info-date .parmain-info-date-disc .parmain-info-date-disc-para p {
+  font-size: 16px;
   padding-bottom: 16px;
+}
+@media screen and (min-width: 950px) {
+  .parmain .parmain-info .parmain-info-date .parmain-info-date-disc .parmain-info-date-disc-para p {
+    font-size: calc(1.5rem + ((1vw - 9.5px) * 1.0909));
+  }
 }
 .parmain .parmain-info .parmain-info-date .parmain-info-date-disc .parmain-info-date-disc-para .parmain-info-date-notice {
   color: #E5356B;
@@ -821,16 +827,8 @@ header > *, main > *, footer > * {
     padding-bottom: 150px;
   }
 }
-@media screen and (min-width: 950px) {
-  .parmain .parmain-info .parmain-info-flow .parmain-info-flow-steps :nth-child(1) > p {
-    padding-bottom: 120px;
-  }
-}
-@media screen and (min-width: 950px) {
-  .parmain .parmain-info .parmain-info-flow .parmain-info-flow-steps :nth-child(4) > img {
-    padding-top: 80px;
-    width: 70%;
-  }
+.parmain .parmain-info .parmain-info-flow .parmain-info-flow-steps :nth-child(4) {
+  margin-bottom: 0;
 }
 @media screen and (min-width: 950px) {
   .parmain .parmain-info .parmain-info-flow .parmain-info-flow-steps {
@@ -844,6 +842,9 @@ header > *, main > *, footer > * {
   border-radius: 20px;
   border: solid 1px black;
   padding: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 @media screen and (min-width: 950px) {
   .parmain .parmain-info .parmain-info-flow .parmain-info-flow-steps > div {
@@ -943,7 +944,7 @@ header > *, main > *, footer > * {
 @media screen and (min-width: 950px) {
   .parmain .parmain-rev p, .parmain .parmain-rev div {
     padding-bottom: 100px;
-    font-size: 36px;
+    font-size: calc(1.75rem + ((1vw - 9.5px) * 1.4545));
   }
 }
 .parmain .parmain-rev :nth-child(5) {
@@ -1113,7 +1114,7 @@ header > *, main > *, footer > * {
 }
 .comheader .comheader-headline {
   text-align: center;
-  font-size: calc(calc(1.5rem + ((1vw - 3.2px) * 0.9539)) + 5px);
+  font-size: calc(calc(1.125rem + ((1vw - 3.75px) * 6.2609)) + 5px);
   padding-bottom: 48px;
 }
 @media screen and (min-width: 950px) {
@@ -1130,7 +1131,7 @@ header > *, main > *, footer > * {
 }
 .comheader .comheader-copy h2 {
   text-align: center;
-  font-size: calc(calc(1.5rem + ((1vw - 3.2px) * 0.9539)) - 4px);
+  font-size: calc(calc(1.125rem + ((1vw - 3.75px) * 6.2609)) - 4px);
   padding-bottom: 32px;
 }
 @media screen and (min-width: 950px) {
@@ -1165,7 +1166,7 @@ header > *, main > *, footer > * {
 }
 @media screen and (min-width: 950px) {
   .comheader .comheader-copy .comheader-line {
-    font-size: 30px;
+    font-size: calc(1.5rem + ((1vw - 9.5px) * 1.0909));
   }
 }
 
@@ -1349,7 +1350,7 @@ header > *, main > *, footer > * {
 @media screen and (min-width: 950px) {
   .commain .commain-rev p, .commain .commain-rev div {
     padding-bottom: 100px;
-    font-size: 36px;
+    font-size: calc(1.75rem + ((1vw - 9.5px) * 1.4545));
   }
 }
 .commain .commain-rev :nth-child(5) {
