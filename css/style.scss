@@ -753,6 +753,9 @@ header>*,main>*,footer>*{
                     display: flex;
                     flex-wrap: wrap;
                     justify-content: space-between;
+                    :nth-child(3){
+                        margin-bottom: 0;
+                    }
                 }
             }
             .parmain-info-flow-steps>div{
