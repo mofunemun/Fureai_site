@@ -76,7 +76,7 @@ header,main,footer{
 }
 
 header>*,main>*,footer>*{
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
     @media screen and (min-width:$breakpoint) {
         width: 85%;
@@ -1329,6 +1329,244 @@ header>*,main>*,footer>*{
             padding-bottom: $space-sp-small;
             @media screen and (min-width:$breakpoint) {
                 padding-bottom: $space-pc-small;
+            }
+        }
+    }
+}
+.revheader{
+    background: $bg-grad;
+    padding: $space-sp-block 0;
+    @media screen and (min-width:$breakpoint) {
+        padding-top: 66px;
+        padding-bottom: $space-pc-block;
+    }
+    .revheader-headline{
+        text-align: center;
+        font-size: calc(#{$size-sp-headline} + 5px);
+        padding-bottom: $space-sp-block;
+        @media screen and (min-width:$breakpoint) {
+            font-size: calc(#{$size-pc-headline} * 2);
+            text-align: left;
+        }
+    }
+    .revheader-copy{
+        @media screen and (min-width:$breakpoint) {
+            display: flex;
+
+        }
+        h2{
+            text-align: center;
+            font-size: calc(#{$size-sp-headline} - 4px);
+            padding-bottom: $space-sp-sect;
+            @media screen and (min-width:$breakpoint){
+                width: 55%;
+                font-size: calc(#{$size-pc-headline} - 4px);
+                text-align: left;
+                padding-bottom: $space-pc-sect;
+            }
+        }
+        div{
+            @media screen and (min-width:$breakpoint){
+                width: 40%;
+                padding-bottom: $space-pc-block;
+            }
+            img{
+                width: $size-sp-img;
+                padding-bottom: $space-sp-sect;
+                @media screen and (min-width:$breakpoint) {
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .revheader-line{
+        text-align: center;
+        @media screen and (min-width:$breakpoint) {
+            font-size: $size-pc-para;
+        }
+    }
+}
+.revmain{
+    width: 100%;
+    .revmain-info{
+        width: 100%;
+        .revmain-info-about{
+            width: 85%;
+            margin: 0 auto;
+            padding-top: $space-sp-block;
+            padding-bottom: $space-sp-sect;
+            @media screen and (min-width:$breakpoint) {
+                padding-top: $space-pc-art;
+                padding-bottom: $space-pc-art;
+            }
+            h3{
+                padding-bottom: $space-sp-block;
+                @media screen and (min-width:$breakpoint) {
+                    padding-bottom: $space-pc-sect;
+                }
+            }
+            p,img{
+                padding-bottom: $space-sp-sect;
+                @media screen and (min-width:$breakpoint) {
+                    padding-bottom: 0;
+                }
+            }
+            >div{
+                @media screen and (min-width:$breakpoint) {
+                    display: flex;
+                    justify-content: space-between;
+                    padding-bottom: $space-pc-block;
+                }
+                p{
+                    text-align: left;
+                    @media screen and (min-width:$breakpoint){
+                        width: 60%;
+                    }
+                }
+                img{
+                    width: 70%;
+                    @media screen and (min-width:$breakpoint) {
+                        display: block;
+                        width: 35%;
+                    }
+                }
+            }
+            .revmain-info-about-sec2{
+                @media screen and (min-width:$breakpoint) {
+                    flex-direction: row-reverse;
+                }
+            }
+            .revmain-info-about-sec3{
+                >p{
+                    width: 100%;
+                }
+                @media screen and (min-width:$breakpoint) {
+                    padding-bottom: 0;
+                }
+            }
+        }
+        .revmain-info-movie{
+            width: 85%;
+            margin: 0 auto;
+            h3{
+                padding-bottom: $space-sp-sect;
+                @media screen and (min-width:$breakpoint) {
+                    padding-bottom: $space-pc-sect;
+                }
+            }
+            >div{
+                display: flex;
+                flex-direction: column;
+                @media screen and (min-width:$breakpoint){
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding-bottom: $space-pc-sect;
+                }
+            }
+            .revmain-info-movie-container{
+                position: relative;
+                width: 100%;
+                justify-content: center;
+                @media screen and (min-width:$breakpoint) {
+                    width: 80%;
+                    align-items: center;
+                }
+                video{
+                    width: 100%;
+                }
+            }
+            .revmain-info-movie-desc{
+                padding-top: $space-sp-sect;
+                @media screen and (min-width:$breakpoint) {
+                    width: 80%;
+                    padding:$size-pc-small;
+                }
+                .para-l{
+                    padding-bottom: $space-sp-small;
+                }
+            }
+        }
+        .revmain-info-review{
+            width: 100%;
+            background: $bg-grad;
+            padding: $space-sp-art 0;
+            padding: 0 7.5%;
+            @media screen and (min-width:$breakpoint){
+                padding-bottom: $space-pc-sect;
+            }
+            >h3{
+                padding-bottom: $space-sp-sect;
+                padding-top: $space-sp-sect;
+                @media screen and (min-width:$breakpoint){
+                    padding-bottom: $space-pc-sect;
+                    padding-top: $space-pc-sect;
+                }
+            }
+            >p{
+                @media screen and (min-width:$breakpoint){
+                    margin: 0 auto;
+                    width: 80%;
+                    font-size: $size-pc-para;
+                    padding-bottom: $space-pc-block;
+                }
+            }
+            .flex{
+                display: flex;
+            }
+            .revmain-info-review-items{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+                @media screen and (min-width:$breakpoint){
+                    padding: $space-pc-small 0;
+                    flex-direction: row;
+                }
+                >p,div{
+                    width: 100%;
+                    @media screen and (min-width:$breakpoint){
+                        width: 45%;
+                    }
+                    >img{
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+                .round{
+                    >img{
+                        border-radius: 50%;
+                        
+                    }
+                }
+            }
+            .revmain-info-review-container{
+                width: 85%;
+                margin: 0 auto;
+                display: flex;
+                justify-content: space-between;
+                >.column{
+                    display: flex;
+                    @media screen and (min-width:$breakpoint){
+                        width: 45%;
+                        flex-direction: column;
+                        justify-content: space-between; 
+                    }
+                    >div{
+                        @media screen and (min-width:$breakpoint){
+                            width: 100%;
+                            padding-bottom: $space-pc-small;
+                        }
+                        >img{
+                            width: 100%;
+                        }
+                    }
+                }
+                >.one{
+                    @media screen and (min-width:$breakpoint){
+                        justify-content: center;
+                    }
+                }
             }
         }
     }
