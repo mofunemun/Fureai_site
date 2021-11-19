@@ -11,7 +11,7 @@ $size-pc-large:calc(1.75rem + ((1vw - 9.5px) * 1.4545));
 $size-pc-para:calc(1.5rem + ((1vw - 9.5px) * 1.0909));
 $size-pc-small:24px;
 
-$breakpoint: 950px;
+$breakpoint: 1200px;
 
 $size-sp-img: 100%;
 $size-half-img: 49%;
@@ -102,6 +102,7 @@ header>*,main>*,footer>*{
         padding: $space-pc-small 0;
     }
     .indexheader-copy{
+        width: 85%;
         display: flex;
         flex-direction: column;
         padding-bottom: $space-sp-sect;
@@ -186,6 +187,8 @@ header>*,main>*,footer>*{
 }
 .indexmain{
     .indexmain-info{
+        width: 85%;
+        margin:  0 auto;
         padding-top: $space-sp-block;
         padding-bottom: $space-sp-art;
         @media screen and (min-width:$breakpoint) {
@@ -483,18 +486,24 @@ header>*,main>*,footer>*{
             padding-top: $space-pc-sect;
             padding-bottom: $space-pc-art;
         }
-        >div:nth-child(1){
+        >div{
             padding-bottom: $space-sp-block;
             @media screen and (min-width:$breakpoint) {
                 padding-bottom: 0;
             }
         }
         >div{
+            width: 85%;
+            margin: 0 auto;
             @media screen and (min-width:$breakpoint) {
-                width: 45%;
+                width: 30%;
             }
             h3{
                 padding-bottom: $space-sp-sect;
+                font-size: $size-sp-large;
+                @media screen and (min-width:$breakpoint){
+                    font-size: $size-pc-large;
+                }
             }
             a{
                 display: block;
@@ -592,6 +601,8 @@ header>*,main>*,footer>*{
 .parmain{
     .parmain-info{
         .parmain-info-about{
+            width: 85%;
+            margin:  0 auto;
             padding-top: $space-sp-block;
             padding-bottom: $space-sp-sect;
             @media screen and (min-width:$breakpoint) {
@@ -643,6 +654,8 @@ header>*,main>*,footer>*{
             
         }
         .parmain-info-date{
+            width: 85%;
+            margin:  0 auto;
             padding-bottom: $space-sp-art;
             @media screen and (min-width:$breakpoint) {
                 padding-bottom: $space-pc-art;
@@ -693,6 +706,8 @@ header>*,main>*,footer>*{
             }
         }
         .parmain-info-items{
+            width: 85%;
+            margin:  0 auto;
             padding-bottom: $space-sp-art;
             @media screen and (min-width:$breakpoint) {
                 padding-bottom: $space-pc-art;
@@ -735,6 +750,8 @@ header>*,main>*,footer>*{
             }
         }
         .parmain-info-flow{
+            width: 85%;
+            margin:  0 auto;
             padding-bottom: $space-sp-art;
             @media screen and (min-width:$breakpoint) {
                 padding-bottom: $space-pc-block;
@@ -937,18 +954,24 @@ header>*,main>*,footer>*{
             padding-top: $space-pc-sect;
             padding-bottom: $space-pc-art;
         }
-        >div:nth-child(1){
+        >div{
             padding-bottom: $space-sp-block;
             @media screen and (min-width:$breakpoint) {
                 padding-bottom: 0;
             }
         }
         >div{
+            width: 85%;
+            margin: 0 auto;
             @media screen and (min-width:$breakpoint) {
-                width: 45%;
+                width: 30%;
             }
             h3{
                 padding-bottom: $space-sp-sect;
+                font-size: $size-sp-large;
+                @media screen and (min-width:$breakpoint){
+                    font-size: $size-pc-large;
+                }
             }
             a{
                 display: block;
@@ -1284,18 +1307,24 @@ header>*,main>*,footer>*{
             padding-top: $space-pc-sect;
             padding-bottom: $space-pc-art;
         }
-        >div:nth-child(1){
+        >div{
             padding-bottom: $space-sp-block;
             @media screen and (min-width:$breakpoint) {
                 padding-bottom: 0;
             }
         }
         >div{
+            width: 85%;
+            margin: 0 auto;
             @media screen and (min-width:$breakpoint) {
-                width: 45%;
+                width: 30%;
             }
             h3{
                 padding-bottom: $space-sp-sect;
+                font-size: $size-sp-large;
+                @media screen and (min-width:$breakpoint){
+                    font-size: $size-pc-large;
+                }
             }
             a{
                 display: block;
@@ -1490,9 +1519,9 @@ header>*,main>*,footer>*{
         .revmain-info-review{
             width: 100%;
             background: $bg-grad;
-            padding: $space-sp-art 0;
-            padding: 0 7.5%;
+            padding: $space-sp-sect 0;
             @media screen and (min-width:$breakpoint){
+                padding: 0 7.5%;
                 padding-bottom: $space-pc-sect;
             }
             >h3{
@@ -1504,8 +1533,10 @@ header>*,main>*,footer>*{
                 }
             }
             >p{
+                width: 85%;
+                margin: 0 auto;
+                padding-bottom: $space-sp-sect;
                 @media screen and (min-width:$breakpoint){
-                    margin: 0 auto;
                     width: 80%;
                     font-size: $size-pc-para;
                     padding-bottom: $space-pc-block;
@@ -1515,16 +1546,19 @@ header>*,main>*,footer>*{
                 display: flex;
             }
             .revmain-info-review-items{
-                width: 100%;
+                width: 85%;
+                margin: 0 auto;
                 display: flex;
                 justify-content: space-between;
                 flex-direction: column;
+                padding-bottom: $space-sp-block;
                 @media screen and (min-width:$breakpoint){
                     padding: $space-pc-small 0;
                     flex-direction: row;
                 }
                 >p,div{
                     width: 100%;
+                    padding-bottom: $space-sp-small;
                     @media screen and (min-width:$breakpoint){
                         width: 45%;
                     }
@@ -1545,8 +1579,16 @@ header>*,main>*,footer>*{
                 margin: 0 auto;
                 display: flex;
                 justify-content: space-between;
+                flex-direction: column;
+                @media screen and (min-width:$breakpoint){
+                    flex-direction: row;
+                }
                 >.column{
                     display: flex;
+                    flex-direction: column;
+                    width: 100%;
+         
+                    padding: 0;
                     @media screen and (min-width:$breakpoint){
                         width: 45%;
                         flex-direction: column;
@@ -1570,4 +1612,69 @@ header>*,main>*,footer>*{
             }
         }
     }
+}
+.revfooter{
+    .revfooter-links{
+        padding: $space-sp-art 0;
+        @media screen and (min-width:$breakpoint) {
+            display: flex;
+            justify-content: space-between;
+            padding-top: $space-pc-sect;
+            padding-bottom: $space-pc-art;
+        }
+        >div{
+            padding-bottom: $space-sp-block;
+            @media screen and (min-width:$breakpoint) {
+                padding-bottom: 0;
+            }
+        }
+        >div{
+            margin: 0 auto;
+            width: 85%;
+            @media screen and (min-width:$breakpoint) {
+                width: 30%;
+            }
+            h3{
+                padding-bottom: $space-sp-sect;
+                font-size: $size-sp-large;
+                @media screen and (min-width:$breakpoint){
+                    font-size: $size-pc-large;
+                }
+            }
+            a{
+                display: block;
+                height: 56px;
+                width: 100%;
+                border-radius: 14px;
+                background-color: $color-green;
+                text-align: center;
+                text-decoration: none;
+                color: black;
+                @media screen and (min-width:$breakpoint) {
+                    height: 90px;
+                    border-radius: 24px;
+                }
+                div{
+                    height: 100%;
+                    line-height: 56px;
+                    @media screen and (min-width:$breakpoint) {
+                        line-height: 90px;
+                    }
+                }
+            }
+        }
+    }
+    .revfooter-address{
+        padding-bottom: $space-sp-block;
+        @media screen and (min-width:$breakpoint){
+            padding-bottom: $space-pc-sect;
+        }
+        .para-s{
+            padding-bottom: $space-sp-small;
+            @media screen and (min-width:$breakpoint) {
+                padding-bottom: $space-pc-small;
+            }
+        }
+    }
+    
 }
