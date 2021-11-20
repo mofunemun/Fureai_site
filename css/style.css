@@ -150,9 +150,9 @@ header > *, main > *, footer > * {
   .indexheader p {
     padding-top: 0;
     width: 50%;
-    font-size: calc(54px - 4px);
+    font-size: calc(54px - 8px);
     position: absolute;
-    bottom: 20vh;
+    bottom: 15vh;
     left: 40%;
   }
 }

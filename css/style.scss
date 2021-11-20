@@ -168,9 +168,9 @@ header>*,main>*,footer>*{
         @media screen and (min-width:$breakpoint) {
             padding-top: 0;
             width: 50%;
-            font-size: calc(#{$size-pc-headline} - 4px);
+            font-size: calc(#{$size-pc-headline} - 8px);
             position: absolute;
-            bottom: 20vh;
+            bottom: 15vh;
             left: 40%;
         }
     }
